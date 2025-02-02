@@ -1,0 +1,143 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color:#698c69;
+  }
+  .allall {
+    display:flex;
+  }
+  .all{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+  }
+  .all div{
+    background-color:#68a190;
+    text-decoration:none;
+    font-size:2em;
+    padding:10px;
+    font-family:'dancing script', sans serif;
+    text-align:center;
+    margin:10px;
+    color:#15665c;
+    border-style:solid;
+    border-width:10px;
+    border-color:#3a4b47;
+    width:300px;
+    height:200px;
+  }
+  .all div a {
+    color:#15665c;
+    font-weight:bold;
+  }
+  
+  .leftall{
+    display:flex;
+    flex-flow:column;
+    float:right;
+  }
+  .leftall div{
+    background-color:#c7a21f;
+    font-size:1.5em;
+    text-align:center;
+    font-family: 'Major Mono Display', monospace;
+    margin:10px;
+    color:#414039;
+    border-style:solid;
+    border-width:10px;
+    border-color:#665a0a;
+    width:40vw;
+    height:125px;
+  }
+  .leftall div a{
+      color:#414039;
+  }
+  .video div{
+    background-color:#dbdbdb;
+    color:#3d3d3d;
+    text-align:center;
+    border-style:solid;
+    font-family:'dancing script', cursive;
+    border-width:8px;
+    margin:10px;
+    border-color:#3d3d3d;
+  }
+  
+  .video div a{
+      text-decoration:none;
+      color:#3d3d3d;
+  }
+  .title{
+    padding:0px;
+    margin:10px;
+    text-align:center;
+    font-size:2em;
+    background-color:#69a580;
+    color:#117839;
+    border-style:solid;
+    border-width:10px;
+    border-color:#2d5c41;
+  }
+  .speciesbios{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+  }
+  .speciesbios div{
+    margin:10px;
+    background-color:#c7a21f;
+    font-family:'Agbalumo', cursive;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:2em;
+    border-style:solid;
+    border-width:5px;
+    border-color:#665a0a;
+  }
+  .speciesbios div a{
+      color:#414039;
+      text-decoration:none;
+  }
+  .speciesbiotitle{
+    padding:0px;
+    margin:10px;
+    text-align:center;
+    font-size:1em;
+    background-color:#69a580;
+    font-family: 'Iceberg', sans-serif;
+    color:#3e895b;
+    border-style:solid;
+    border-width:5px;
+    border-color:#2d5c41;
+  }
+  
+  .speciesbiotitle a{
+      color:#3e895b;
+      text-decoration:none;
+  }
+  
+  @media all and (max-width:600px) {
+  .leftall {
+    float:none;
+  }
+  all{
+    flex-flow:column;
+    width:99vw;
+  }
+  .allall{
+    flex-flow:column;
+    width:100vw;
+  }
+    .hihi{
+      width:80vw;
+    }
+    .leftall{
+        width:98vw;
+    }
+    .leftall div{
+        width:98vw;
+    }
+  }
+  
