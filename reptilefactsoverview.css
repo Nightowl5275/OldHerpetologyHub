@@ -1,0 +1,109 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color:#268d70;
+  }
+  
+  .title, .soon {
+    border-style: solid;
+    text-align: center;
+    border-color: #446f67;
+    color: #446f67;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-width: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #1a3933;
+  }
+  
+  .soon{
+    border-width:5px;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    background-color: #48a693;
+  }
+  
+  .navigation a {
+    color: #d6d6d6;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+  }
+  
+  .navigation a:hover {
+    color: #427576;
+    background-color: #292929;
+  }
+  
+  .content div{
+    padding:20px;
+    text-align:center;
+    color:#1f1f1f;
+    border:6px solid #363636;
+    text-decoration:none;
+  }
+  
+  .one, .two, .three{
+    margin:15px;
+  }
+  
+  .facts{
+    background-color:#3a6e5f;
+      font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .one {
+    background-color:#558b55;
+  }
+  
+  .two {
+    background-color:#558b7f;
+  }
+  
+  .three {
+    background-color:#4f6b82;
+  }
+  
+  .four {
+    background-color:#446f44;
+      font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .five {
+    background-color:#446f66;
+      font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .six {
+    background-color:#445c6f;
+      font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .four, .five, .six{
+    margin:30px;
+  }
+  
+  .content div a{
+    text-decoration:none;
+    color:#1f1f1f;
+  }
+  

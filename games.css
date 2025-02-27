@@ -1,0 +1,41 @@
+
+html{
+    background-color:rgb(92, 92, 92);
+  }
+  .title{
+    padding:0px;
+    margin:10px;
+    text-align:center;
+    font-size:2em;
+    background-color:#23143c;
+    color:#757575;
+    border-style:solid;
+    border-width:10px;
+    border-color:#010102;
+  }.games{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+  }
+  .games div{
+    background-color:#67b3b5;
+    text-decoration:none;
+    margin:10px;
+    padding:102px;
+    width: 20vw;
+    text-align:center;
+    color:#010102;
+    border-style:solid;
+    border-width:10px;
+    border-color:#010102;
+  
+  }
+  .games :nth-child(even){
+    background-color:#f31919;
+  }
+  
+  .games a{
+    text-decoration:none;
+    color:#010102;
+    font-size:2em;
+  }

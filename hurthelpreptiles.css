@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color:#497e63;
+  }
+  
+  .title {
+    border-style: double;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    border-color: #c7c7c7;
+    color: #c7c7c7;
+    border-width: 15px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #04431a;
+  }
+  
+  .all{
+    display:flex;
+    flex-flow:row;
+    justify-content: space-around;
+    Background-color:#59a6a4;
+    padding:15px;
+    margin:20px;
+  }
+  
+  .all div{
+    text-align:center;
+    padding:7px;
+    margin:3px;
+    color:#c7c7c7;
+    background-color:#356d27;
+  }
+  
+  .all div p{
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .all div h4{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .all div:nth-child(even){
+    background-color:#27686d;
+  }
+  
+  .button {
+    text-align:center;
+    background-color:#276d5b;
+    border-style: solid;
+    border-color: #c7c7c7;
+    padding: 10px;
+    margin: 10px;
+    border-width: 5px;
+  }
+  
+  .button a{
+    text-decoration:none;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #c7c7c7;
+  }
+  
+  @media all and (max-width:800px){
+    .all{
+      flex-flow:column;
+    }
+    .all div{
+      margin:15px;
+    }
+  }

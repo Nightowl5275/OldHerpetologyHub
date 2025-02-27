@@ -1,0 +1,120 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  .title{
+    padding:7px;
+    margin:10px;
+    text-align:center;
+    font-size:2em;
+    border-color:#09216a;
+    color:#001b6b;
+    background-color:#2347b1;
+    border-style:solid;
+    border-width:10px;
+  }
+  .crossword{
+    border-color:#383838;
+    border-style:solid;
+    border-width:7px;
+    background-color: white;
+    margin:10px;
+  }
+  .gridrow{
+    display: flex;
+    flex-flow: row;
+  }
+  .gridrow p{
+    font-size: 0.75em;
+    margin:2px;
+  }
+  .gridrow div{
+    border-width:1px;
+    text-align:center;
+    border-style:solid;
+    width:4vw;
+    height:4vw;
+  }
+  .blacksquare{
+    color:#383838;
+    background-color:#383838;
+    border-color:#383838;
+    border-style:solid;
+    border-width:7px;
+  }
+  .questions{
+    display:flex;
+    flex-flow:row;
+  }
+  .questions div{
+    border-color:#383838;
+    border-style:solid;
+    border-width:2px;
+    margin:3px;
+  }
+  .buttons div{
+      border-color:#383838;
+    border-style:solid;
+    border-width:4px;
+    margin:6px;
+    background-color:#E7E7E7;
+    text-decoration:none;
+    color:black;
+    text-align:center;
+  }
+  .vertical, .horizontal{
+    text-align:center;
+    background-color: #949494;
+    color:#000000;
+    margin:5px;
+    padding:3px;
+  }
+   
+  .questionone, .qone {
+    background-color: #92ba92;
+  }
+  .questiontwo, .qtwo {
+    background-color:#18674a;
+  }
+  .questionthree, .qthree {
+    background-color:#436e6f;
+  }
+  .questionfour, .qfour {
+    background-color:#003f5c;
+  }
+  .questionfive, .qfive {
+    background-color:#879693;
+  }
+  .questionsix, .qsix {
+    background-color:#a49e97;
+  }
+  .questionseven, .qseven {
+    background-color:#006666;
+  }.questioneight, .qeight {
+    background-color:#66b2b2;
+  }
+  .questionnine, .qnine {
+    background-color:#74a892;
+  }.questionten, .qten {
+    background-color:#b2d8d8;
+  }.questioneleven, .qeleven {
+    background-color:#2c4875;
+  }.questiontwelve, .qtwelve {
+    background-color:#b8cdab;
+  }
+  .questionthirteen, .qthirteen {
+    background-color: #74a892;
+  }
+  .questionfourteen, .qfourteen {
+    background-color:#008585;
+  }
+  .questionfifteen, .qfifteen {
+    background-color:#004343;
+  }
+  .questionsixteen, .qsixteen {
+    background-color: #525e75;
+  }
+  .questionseventeen, .qseventeen {
+    background-color:#78938a;
+  }
+  

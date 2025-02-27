@@ -1,0 +1,36 @@
+html{
+    background-color:#229B6F;
+}
+.title{
+    text-align:center;
+    font-size:4em;
+    color:charcoal;
+}
+.poster, .brochure{
+    text-align:center;
+    border:#36454F, solid, 7px;
+    margin:15px;
+    color:white;
+    padding:15px;
+    background-color:#144C8A;
+}
+.brochure{
+    background-color:#118CA7
+}
+.links div{
+    border:#36454F, solid, 5px;
+    text-align:center;
+    text-decoration:none;
+    background-color:#144C8A;
+    color:white;
+    margin:8px;
+    padding:5px;
+}
+.links a{
+    font-decoration:bold;
+    color:black;
+    font-size:1.5em;
+}
+.links div:nth-child(even){
+    background-color:#118CA7;
+}

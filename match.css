@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color:#8299ab;
+  }
+  .onediv{
+    border:black,solid,5px;
+  }
+  .title{
+    padding:7px;
+    margin:10px;
+    text-align:center;
+    font-size:2em;
+    border-color:#002fbd;
+    color:#001b6b;
+    background-color:#0040ff;
+    border-style:solid;
+    border-width:10px;
+  }
+  .buttons{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+  }
+  .buttons button{
+    padding:5px;
+    color:#292929;
+    font-style:bold;
+    background-color:#4372fe;
+    margin:5px;
+    text-align:center;
+    width:40vw;
+    border-color:#545454;
+    border-style:solid;
+    border-width:5px;
+  }

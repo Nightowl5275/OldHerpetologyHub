@@ -1,0 +1,114 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color:#afdeaf;
+  }
+  .sqaumatanavigationbartitle {
+    background-color: darkolivegreen;
+    color: seashell;
+    padding: 5px;
+  }
+  
+  .navigationtwo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    background-color: forestgreen;
+  }
+  
+  .navigationtwo a {
+    color: seashell;
+    font-family:'sometype mono', sans serif;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+  }
+  
+  .navigationtwo a:hover {
+    color: darkgrey;
+    background-color: #131514;
+  }
+  
+  .squamata{
+    font-family:'Black Ops One', san-serif;
+    font-size:2em;
+    text-align:center;
+  }
+  .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    background-color: navy;
+  }
+  
+  .navigation a {
+    color: seashell;
+    text-decoration: none;
+    font-family:'kay pho du', sans serif;
+    display: block;
+    padding: 1em;
+  }
+  
+  .navigation a:hover {
+    color: black;
+    background-color: darkgrey;
+  }
+  .white{
+    background-color:white;
+    padding:5px;
+    margin:10px;
+  }
+  .all{
+    display:flex;
+    flex-flow:row;
+    font-family:'playpen sans', cursive;
+  }
+  .all div{
+    margin:0px;
+    padding:10px;
+    background-color:#326232;
+    border-style:solid;
+    border-top-width:5px;
+    border-bottom-width:5px;
+    border-width:2px;
+    border-color:#2b2b2b;
+    width:15vw;
+  }
+  .flex-container{
+    display:flex;
+    flex-flow:row;
+  }
+  .flex-item{
+    color:seashell;
+    background-color:#578e57;
+    margin:15px;
+    padding:10px;
+    font-family:'playpen sans', cursive;
+    width:45vw;
+  }
+  .all div:nth-child(even){
+    background-color:#458245;
+  }
+  @media all and (max-width:600px) {
+    .all{
+      display:flex;
+      flex-flow:column wrap;
+    }
+    .all div{
+      width:100vw;
+    }
+    .flex-container{
+      display:flex;
+      flex-flow:column;
+    }
+    .flex-item{
+      width:90vw;
+    }
+  
+    
+  }
+  

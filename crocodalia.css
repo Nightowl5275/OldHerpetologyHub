@@ -1,0 +1,236 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color:#57b7ac;
+  }
+  .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    background-color: navy;
+  }
+  
+  .navigation a {
+    color: seashell;
+    text-decoration: none;
+    font-family:'kay pho du', sans serif;
+    display: block;
+    padding: 1em;
+  }
+  
+  .navigation a:hover {
+    color: black;
+    background-color: darkgrey;
+  }
+  .title{
+    background-color:#38a361;
+    color:#1c1c1c;
+    text-align:center;
+    padding:10px;
+    margin:5px;
+    border:5px #1c1c1c solid;
+  }
+  .breifdescription{
+    background-color:#064b3a;
+    color:seashell;
+    text-align:center;
+    border:7px #363636 solid;
+    padding:10px;
+    margin:15px;
+  }
+  .groupbox{
+    display:flex;
+    flex-flow:row;
+    justify-content:space-around;
+    border:5px #1c1c1c solid;
+    width:99vw;
+    margin-bottom:7px;
+  }
+  .groupbox div{
+    border:4px #363636 solid;
+    width:22%;
+    text-align:center;
+    color:seashell;
+    background-color:#134e25;
+  }
+  
+  .groupbox div:nth-child(even){
+    color:#1c1c1c;
+    background-color:#0c9292;
+  }
+  
+  
+  @media all and (min-width:600px) {
+    .gekkota {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      background-color: #57b7ac;
+      font-family: 'Iceberg', sans-serif;
+    }
+  
+    .gekkotaheader {
+      width: 100%;
+      background-color: #297048;
+      text-align: center;
+    }
+  
+    .gekkotaone {
+      width: 49vw;
+      text-align: center;
+      border-style: solid;
+      border-width: 0.5vw;
+      border-color: #57b7ac;
+      border-right-color: #297048;
+      background-color: #3eb151;
+    }
+  
+    .gekkotatwo {
+      width: 49vw;
+      text-align: center;
+      border-style: solid;
+      border-width: 0.5vw;
+      border-color: #57b7ac;
+      border-left-color: #297048;
+      background-color: #3eb151;
+    }
+  
+    .gekkotathree {
+      width: 24vw;
+      text-align: center;
+      border-style: solid;
+      border-width: 0.5vw;
+      border-color: #57b7ac;
+      background-color: #3eb151;
+    }
+  
+    .gekkotafour {
+      width: 24vw;
+      text-align: center;
+      border-style: solid;
+      border-width: 0.5vw;
+      border-color:#57b7ac;
+      border-right-color: #297048;
+      background-color: #3eb151;
+    }
+  
+    .gekkotafive {
+      width: 24vw;
+      text-align: center;
+      border-style: solid;
+      border-width: 0.5vw;
+      border-color: #57b7ac;
+      border-left-color: #297048;
+      background-color: #3eb151;
+    }
+  
+    .gekkotafivetwo {
+      width: 49vw;
+      text-align: center;
+      border-style: solid;
+      border-width: 0.5vw;
+      border-color: #57b7ac;
+      border-left-color: #297048;
+      background-color: #3eb151;
+    }
+  
+    .gekkotasix {
+      width: 24vw;
+      text-align: center;
+      border-style: solid;
+      border-width: 0.5vw;
+      border-color: #57b7ac;
+      background-color: #3eb151;
+    }
+  
+    .gekkotagekkotaone {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between
+    }
+  
+    .gekkotagekkotatwo {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+    }
+  }
+  
+  @media all and (max-width:600px) {
+    .gekkota {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      background-color: #588960;
+      border-style: solid;
+      border: 5px;
+      border-color: #297048;
+      font-family: 'Iceberg', sans-serif;
+  
+    }
+  
+    .gekkotaheader {
+      width: 100%;
+      background-color: #297048;
+      text-align: center;
+    }
+  
+    .gekkotaone {
+      text-align: center;
+      background-color: #009454;
+      padding: 10px;
+    }
+  
+    .gekkotatwo {
+      text-align: center;
+      background-color: #3b9315;
+      padding: 10px;
+    }
+  
+    .gekkotathree {
+      text-align: center;
+      border-style: solid;
+      border-width: 2vw;
+      border-color: #009454;
+      background-color: #3eb151;
+      margin: 10px;
+    }
+  
+    .gekkotafour {
+      text-align: center;
+      border-style: solid;
+      border-width: 2vw;
+      border-color: #009454;
+      background-color: #3eb151;
+      margin: 10px;
+    }
+  
+    .gekkotafive {
+      text-align: center;
+      border-style: solid;
+      border-width: 2vw;
+      border-color: #3b9315;
+      background-color: #3eb151;
+      margin: 10px;
+    }
+  
+    .gekkotafivetwo {
+      text-align: center;
+      border-style: solid;
+      border-width: 2vw;
+      border-color: #3b9315;
+      background-color: #3eb151;
+      margin: 10px;
+    }
+  
+    .gekkotasix {
+      text-align: center;
+      border-style: solid;
+      border-width: 2vw;
+      border-color: #3b9315;
+      background-color: #3eb151;
+      margin: 10px;
+    }
+  }

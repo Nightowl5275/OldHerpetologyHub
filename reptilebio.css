@@ -1,0 +1,103 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #5d8c98;
+  }
+  .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    background-color: #938006;
+  }
+  
+  .navigation a {
+    color: seashell;
+    text-decoration: none;
+    font-family:'Cinzel', serif;
+    display: block;
+    padding: 1em;
+  }
+  
+  .navigation a:hover {
+    color: black;
+    background-color: darkgrey;
+  }
+  .name{
+    background-color: #4e6cb1;
+    font-family: 'Cinzel', serif;
+    color:#212121;
+    padding:25px;
+    margin-bottom:20px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-top:10px;
+    width:100vw - 20px;
+    border:15px double #313030;
+  }
+  .names{
+    display:flex;
+    flex-flow:row;
+    justify-content:space-around;
+  }
+  .names button{
+    margin:10px;
+    background-color:#504e4e;
+    padding:10px;
+    width:25vw;
+    font-weight:bold;
+    color:#d6d6d6;
+  }
+  .all{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+  }
+  .venomousvharmless, .conservationstatus, .overveiw, .environmentaleffect, .careinfo{
+    background-color:#41643a;
+    padding:15px;
+    margin:15px;
+    height:min-content;
+    width:45vw;
+  }
+  .venomousvharmless, .conservationstatus, .overveiw, .environmentaleffect, .careinfo{
+    font-family: 'Berkshire Swash', serif;
+  color:#292929;
+    border-style:solid;
+    border-color:#292929;
+    border-width:6px;
+  }
+  .identify, .extrainfo, .where {
+    background-color:#5fb04f;
+    font-family: 'Big Shoulders Stencil Text', sans-serif;
+    padding:15px;
+    height:min-content;
+    margin:15px;
+    width:40vw;
+  }
+  
+  .extrainfo{
+      width:auto;
+  }
+  
+  .row{
+    display:flex;
+    flex-flow:row;
+    justify-content:speace-around;
+  }
+  
+  @media all and (max-width:600px) {
+      .all{
+          flex-flow:column;
+      }
+      .all div{
+          width:90vw;
+      }
+      .row{
+          flex-flow:column;
+      }
+      .all img{
+          width:60vw;
+      }
+  }

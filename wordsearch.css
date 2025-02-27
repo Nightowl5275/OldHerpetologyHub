@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color:rgb(86, 101, 123);
+  }
+  .title{
+    text-align:center;
+    font-size:5em;
+    width:95vw;
+    padding:10px;
+  }
+  .table{
+    border-collapse: collapse;
+    text-align:center;
+  }
+  .table td{
+    background-color:rgb(206, 217, 232);
+    border:solid,black,2px;
+    width:6vw;
+    height:6vw;
+  }
+.tableelement.clicked {     
+    background-color:rgb(84, 84, 84);    
+    color:white;
+}
+.key li{
+  padding:5px;
+}
+.key{
+  text-align:center;
+  background-color:rgb(110, 149, 110);
+  border-style:solid;
+  border-color:rgb(35, 35, 35);
+  border-width:5px;
+  margin:10px;
+  color:rgb(35, 35, 35);
+  font-weight:bold;
+}
+.won{
+  text-align:center;
+  background-color:rgb(212, 184, 28);
+  border-style:solid;
+  border-color:rgb(35, 35, 35);
+  border-width:3px;
+  padding:10px;
+  margin: 15px;
+}
+.won a{
+  text-decoration:none;
+  color:rgb(35 ,35 ,35);
+  font-size:2em;
+}
+.links{
+  text-align:center;
+  background-color:rgb(101, 154, 105);
+  border-style:solid;
+  border-color:rgb(35, 35, 35);
+  border-width:3px;
+  padding:5px;
+  margin: 10px;
+}
+.links a{
+  text-decoration:none;
+  color:rgb(35 ,35 ,35);
+  font-size:1.25em;
+}
+
+@media all and (min-width:600px) {
+    .table{
+        float:right;
+        width:auto;
+    }
+    .table td{
+        width:3vw;
+        height:3vw;
+    }
+    .key{
+        float:left;
+        width:30vw;
+    }
+    .box{
+        display:flex;
+        flex-flow:row;
+        justify-content:space-around;
+    }
+    .won{
+        margin-top:30vw;
+    }
+    }
+}

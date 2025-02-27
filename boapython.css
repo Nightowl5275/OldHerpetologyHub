@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #C1E1C1;
+  }
+  .sqaumatanavigationbartitle {
+    background-color: #0c5a32;
+    color: seashell;
+    padding: 5px;
+  }
+  
+  .navigationtwo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    background-color: forestgreen;
+  }
+  
+  .navigationtwo a {
+    color: seashell;
+    text-decoration: none;
+    font-family:'sometype mono', sans serif;
+    display: block;
+    padding: 1em;
+  }
+  
+  .navigationtwo a:hover {
+    color: darkgrey;
+    background-color: #131514;
+  }
+  .reptiletaxonomy{
+    text-align:center;
+    font-size:2em;
+    font-family:'Black Ops One', san-serif;
+  }
+  
+  .everythingreptile {
+    background-color: #C1E1C1;
+    border-width: 5px;
+    border-color: lawngreen;
+  }
+  
+  .WhyAnimalTaxonomy {
+    background-color: lightgreen;
+    border-style: solid;
+    border-width: 3px;
+    border-color: darkgreen;
+  }
+  
+  .flex-item:nth-child(odd) {
+    background-color: darkseagreen;
+    padding: 15px;
+    width:80vw;
+  }
+  
+  .flex-item:nth-child(even) {
+    background-color: lightgreen;
+    padding: 15px;
+    width:80vw;
+  }
+  
+  .flex-item {
+    color: black;
+    border: 2px;
+    border-color: darkgrey;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .ReptileOrders {
+    display: flex;
+    font-family: 'Caveat', cursive;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
